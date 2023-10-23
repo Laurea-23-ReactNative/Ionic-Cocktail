@@ -1,0 +1,53 @@
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start" [routerLink]="['/home']">
+          <ion-back-button default-href="#"></ion-back-button>
+        </ion-buttons>
+      <ion-title>BarCode : Cocktails</ion-title>
+    </ion-toolbar>
+    <ion-toolbar>
+      <ion-searchbar show-clear-button="focus"></ion-searchbar>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> 
+
+    <ion-card>
+      <img alt="drink1" src="assets/img/drink1.png" style="width:100%; height:auto;"/>
+      <ion-card-header>
+        <ion-card-title>Mojito</ion-card-title>
+        <ion-card-subtitle>a traditional cuban drink served on the rocks</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        rum, lime, mint, sugar, soda water
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <img alt="drink3" src="assets/img/drink3.png" style="width:100%; height:auto; padding:40px;"/>
+      <ion-card-header>
+        <ion-card-title>Old Fashioned</ion-card-title>
+        <ion-card-subtitle>whiskey-lover's favorite classic cocktail</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        whiskey, sugar, bitters, water
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <img alt="drink2" src="assets/img/drink2.png" style="width:100%; height:auto; padding:40px;"/>
+      <ion-card-header>
+        <ion-card-title>Margarita</ion-card-title>
+        <ion-card-subtitle>world's most popular tequila-based cocktail</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        tequila, triple sec, lime, sugar
+      </ion-card-content>
+    </ion-card>
+    
+  </ion-content>
+</div>
